@@ -1,0 +1,130 @@
+html
+{
+  background-color: #2a2a2a;
+  font-family: arial;
+  color: whitesmoke;
+}
+
+header
+{
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.8em;
+}
+
+a
+{
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+#menu
+{
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  align-items: center;
+  color: inherit;
+}
+
+#lienutil
+{
+  display: flex;
+  font-weight: 500;
+  width: 30px ;
+  height: 30px;
+  border-radius: 30px;
+  background-color: #5EA4E2;
+  align-items: center;
+  justify-content: center;
+}
+
+#blocpage
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+}
+
+#principal
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 400px;
+  align-items: center;
+}
+
+#logo
+{
+  font-size: 80px;
+  font-family: verdana;
+}
+
+#barrerech
+{
+  display: flex;
+  height: 50px;
+  width:  500px;
+  border-style: solid;
+  border-color: lightgrey;
+  border-width: 2px;
+  border-radius: 50px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#blocbouton
+{
+  display: flex;
+  width: 500px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#blocfooter
+{
+  display: flex;
+  width: 800px;
+  justify-content: space-around;
+
+}
+
+.champrech
+{
+  width: 350px;
+  border-style: none;
+  height: 45px;
+  background-color: inherit;
+}
+
+.bouton
+{
+  height:40px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: #4b4b4b;
+  color: white;
+  cursor: pointer;
+
+}
+
+footer
+{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.9em;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 150px;
+  background-color: black;
+  color: lightgrey;
+}
+
+footer:nth-child(1)
+{
+  align-self: flex-start;
+}
